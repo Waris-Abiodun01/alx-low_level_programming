@@ -8,6 +8,7 @@
 int main(void)
 {
 	char nb = 'a';
+
 	for (nb = 'a'; nb <= 'z'; nb++)
 	{
 		if (nb != 'q' && nb != 'e')

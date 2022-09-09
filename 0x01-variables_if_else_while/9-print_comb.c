@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - printm 0 t0 9
+ * main - printm 0 t0 9 seperated with comma and space
  * Description: i am using putchar and loop
  * Return: zero on success
  */
@@ -11,7 +11,12 @@ int main(void)
 
 	for (nb = 0; nb <= 9; nb++)
 	{
-		printf("%d", nb);
+		putchar(nb + 48);
+		if (nb != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);

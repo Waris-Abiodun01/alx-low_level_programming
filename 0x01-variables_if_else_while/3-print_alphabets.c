@@ -8,6 +8,7 @@
 int main(void)
 {
 	char nb;
+
 	for (nb = 'a'; nb <= 'z'; nb++)
 	{
 		putchar(nb);
@@ -15,7 +16,7 @@ int main(void)
 	for (nb = 'A'; nb <= 'Z'; nb++)
 	{
 		putchar(nb);
-	}   
+	}
 	putchar('\n');
 	return (0);
 }

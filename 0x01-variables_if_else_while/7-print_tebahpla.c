@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * main - printm 0 t0 9
+ * main - print z to a
  * Description: i am using putchar and loop
  * Return: zero on success
  */
 
 int main(void)
 {
-	int nb = 0;
+	char nb;
 
-	for (nb = 0; nb <= 9; nb++)
+	for (nb = 'z'; nb >= 'a'; nb--)
 	{
-		printf("%d", nb);
+		putchar(nb);
 	}
 	putchar('\n');
 	return (0);

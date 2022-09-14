@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_sign - check if the char is a lowercase
+ * print_sign - check if the char is a lowercase
  * @n: character to be passed from main
  * Return: if it is lowercase return 1 , else return 0
  */

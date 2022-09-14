@@ -5,6 +5,7 @@
  */
 int main(void)
 {
+
 	int i = 1;
 	int k = 0;
 

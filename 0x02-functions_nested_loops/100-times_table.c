@@ -10,7 +10,7 @@ void print_times_table(int n)
 	int k;
 
 	if (n >= 0 && n < 16)
-		return (-1);
+		return;
 	for (i = 0; i <= n; i++)
 	{
 		for (j = 0; j <= n; j++)

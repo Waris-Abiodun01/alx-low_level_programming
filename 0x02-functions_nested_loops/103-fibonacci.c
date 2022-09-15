@@ -6,22 +6,23 @@
  */
 int main(void)
 {
-	int i = 1;
-	long int a = 0;
-	long int b = 1;
-	long int fib;
-
-	while (i <= 50)
+	int sum = 0;
+	int a = 0;
+	int b = 1;
+	int fib = 1;
+	
+	while (i <= 4000000)
 	{
 		fib = a + b;
 		a = b;
 		b = fib;
-
-		printf("%lu", fib);
-		if (i != 50)
-			printf(", ");
+		if ((fib % 2) == 0)
+		{
+			sum += sum
+		}
 		i++;
 	}
-	printf("\n");
+
+	printf("%d\n", sum);
 	return (0);
 }

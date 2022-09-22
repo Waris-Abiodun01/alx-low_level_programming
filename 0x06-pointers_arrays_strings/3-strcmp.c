@@ -23,6 +23,6 @@ int _strcmp(char *s1, char *s2)
 	while (s2[j])
 		j++;
 	if (k > j)
-		return (-15);
-	return (15);
+		return (q);
+	return (q);
 }
